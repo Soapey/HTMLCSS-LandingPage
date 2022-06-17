@@ -6,7 +6,7 @@ a { color: #faa541; text-decoration: none; }
 ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
-/***************************************/
+/************* GENERAL *************/
 .container {
     margin: 0px auto;
     max-width: 1170px;
@@ -14,7 +14,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 section {
     display: flex;
 }
-.flex {
+/************* FLEX *************/
+.flex
+ {
     display: flex;
 } 
 .flex-column {
@@ -23,6 +25,7 @@ section {
 .flex-one { 
     flex: 1;
 }
+/************* PLACEMENT *************/
 .align-center {
     align-items: center; 
 }
@@ -31,4 +34,20 @@ section {
 }
 .space-between {
     justify-content: space-between; 
+}
+/************* BUTTONS *************/
+.btn {
+    cursor: grab;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+.btn-default {
+    color: white;
+    background-color: #faa541;
+}
+.btn-primary {
+    color: white;
+    background-color: #364147;
 }
